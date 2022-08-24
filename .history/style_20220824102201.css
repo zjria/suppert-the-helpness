@@ -1,0 +1,11 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.header_section{
+    background-image: url(images/header.jpg);
+    background-repeat: repeat-y;
+    width: 100vh;
+    background-color: #bd3434;
+
+    
+}
