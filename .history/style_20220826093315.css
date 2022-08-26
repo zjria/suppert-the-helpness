@@ -26,7 +26,6 @@ h1 {
     padding: 5px;
     margin-bottom: 1px;
     text-align: center;
-
 }
 
 p {
@@ -35,7 +34,7 @@ p {
     margin: 0px 0px 20px 0px;
     font: bolder;
     text-align: center;
-    color: #aeaeae;
+
 }
 
 .button-style {
@@ -66,12 +65,12 @@ p {
 .dollar {
     padding: 20px;
     background: rgb(247, 244, 244);
-    margin: 20px 10px 30px 10px;
+    margin: 10px;
     border-radius: 2px;
     font-weight: bold;
 }
 
-.dollar#second {
+.dollar:hover {
     border: 1px solid #ff5959;
     background: #ffeeee;
     transition: none;
@@ -86,56 +85,12 @@ p {
     margin: 0 auto;
     display: flex;
     border: 0;
-    padding: 10px 15px;
-    width: 50%;
-    font-size: 15px;
+    padding: 5px 15px;
 }
 
 .input-field .line-style {
     width: 50%;
     text-align: center;
     align-items: center;
-    margin: 0 auto;
-    content: '';
-    background-color: #dadada;
-    color: #dadada;
-    height: 1px;
-    margin-bottom: 20px;
-}
-
-.our-plan {
     display: flex;
-    width: 80%;
-    text-align: center;
-    justify-content: center;
-    margin: 0 auto;
-    align-items: center;
-
-}
-
-.plane,
-.plane p {
-    margin: 5px;
-    text-align: start;
-    padding: 8px;
-    border-radius: 5px;
-
-
-}
-
-.plane p {
-    margin: 0px;
-    line-height: 20px;
-}
-
-.plane#plane-one {
-    background-color: #edf5f6;
-}
-
-.plane#plane-tow {
-    background-color: #ffeeee;
-}
-
-.plane#plane-three {
-    background-color: #fff4d6;
 }

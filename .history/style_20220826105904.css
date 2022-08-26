@@ -115,27 +115,15 @@ p {
 
 .plane,
 .plane p {
-    margin: 5px;
+    background-color: antiquewhite;
+    /* margin: 5px; */
     text-align: start;
-    padding: 8px;
-    border-radius: 5px;
-
+    padding: 5px;
 
 }
 
 .plane p {
+
     margin: 0px;
-    line-height: 20px;
-}
 
-.plane#plane-one {
-    background-color: #edf5f6;
-}
-
-.plane#plane-tow {
-    background-color: #ffeeee;
-}
-
-.plane#plane-three {
-    background-color: #fff4d6;
 }

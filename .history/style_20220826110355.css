@@ -115,6 +115,7 @@ p {
 
 .plane,
 .plane p {
+    background-color: antiquewhite;
     margin: 5px;
     text-align: start;
     padding: 8px;
@@ -129,13 +130,5 @@ p {
 }
 
 .plane#plane-one {
-    background-color: #edf5f6;
-}
-
-.plane#plane-tow {
-    background-color: #ffeeee;
-}
-
-.plane#plane-three {
-    background-color: #fff4d6;
+    background-color: #dadada;
 }

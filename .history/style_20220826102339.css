@@ -26,7 +26,6 @@ h1 {
     padding: 5px;
     margin-bottom: 1px;
     text-align: center;
-
 }
 
 p {
@@ -35,7 +34,7 @@ p {
     margin: 0px 0px 20px 0px;
     font: bolder;
     text-align: center;
-    color: #aeaeae;
+
 }
 
 .button-style {
@@ -100,42 +99,4 @@ p {
     background-color: #dadada;
     color: #dadada;
     height: 1px;
-    margin-bottom: 20px;
-}
-
-.our-plan {
-    display: flex;
-    width: 80%;
-    text-align: center;
-    justify-content: center;
-    margin: 0 auto;
-    align-items: center;
-
-}
-
-.plane,
-.plane p {
-    margin: 5px;
-    text-align: start;
-    padding: 8px;
-    border-radius: 5px;
-
-
-}
-
-.plane p {
-    margin: 0px;
-    line-height: 20px;
-}
-
-.plane#plane-one {
-    background-color: #edf5f6;
-}
-
-.plane#plane-tow {
-    background-color: #ffeeee;
-}
-
-.plane#plane-three {
-    background-color: #fff4d6;
 }
