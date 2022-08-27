@@ -22,11 +22,11 @@ body {
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 50px;
     padding: 5px;
     margin-bottom: 1px;
     text-align: center;
-    text-transform: uppercase;
+
 }
 
 p {
@@ -142,48 +142,6 @@ p {
     margin: 20px 0px;
 }
 
-/* support Section */
-.support {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 0 auto;
-    width: 80%;
-    padding: 20px 0;
-}
-
-.gallery {
-    margin: 5px;
-    background-color: #d9d9d9;
-    padding-bottom: 10px;
-    border-radius: 10px;
-
-}
-
-.gallery img {
-    width: 100%;
-    border-radius: 10px 10px 0px 0px;
-}
-
-.gallery button {
-    font-size: 16px;
-    padding: 12px 15px;
-    background-color: #ff5959;
-    color: white;
-    border-radius: 5px;
-    border: none;
-    font-weight: 700;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    display: flex;
-}
-
-
-
-/* Get my updates */
 .color {
     background-color: #fff4d6;
     width: 70%;
@@ -191,54 +149,36 @@ p {
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
-    box-sizing: content-box;
-}
-
-.box {
     display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
     margin: 0 auto;
-    padding: 50px;
 }
 
-.input-email {
-    background: #fff;
-    width: 340px;
-    height: 30px;
-    border: none;
-    outline: none;
-    padding: 5px;
-    border-radius: 10px 0px 0px 10px;
+.color input {
     background-color: #d9d9d9;
-}
-
-.input-submit {
-    position: relative;
-    width: 150px;
-    height: 40px;
+    padding: 10px 10px;
     border: none;
-    outline: none;
-    padding: 5px;
-    border-radius: 0px 10px 10px 0px;
-    cursor: pointer;
-    background-color: #ff5959;
-    left: -3px;
+    border-radius: 5px;
     font-size: 18px;
-    color: white;
 }
 
-/* Footer Section */
-.footer-style {
-    background-color: #0b0d17;
-    margin: 100px 0px 0px 0px;
-    padding: 50px 0px;
-    color: white;
+input {
+    margin: .4rem 0;
 }
 
-.footer-style h1 {
-    color: #ff5959;
+label {
+    position: relative;
+}
+
+.color .button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #ff5959;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+    position: absolute;
+    left: -5px;
+
 
 }
